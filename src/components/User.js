@@ -6,10 +6,6 @@ import { getUserById } from '../Router';
 
 
 class User extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     onClickHandler = async user => {
         const { login, id } = user;
         const { content }   = login;
